@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/vi-da-guest/static/css/main.6d343148.css",
+    "main.js": "/vi-da-guest/static/js/main.3ee9ff43.js",
+    "static/js/787.1b0f9b41.chunk.js": "/vi-da-guest/static/js/787.1b0f9b41.chunk.js",
+    "static/media/3.jpg": "/vi-da-guest/static/media/3.be5dd271f61e6c53d706.jpg",
+    "static/media/4.jpg": "/vi-da-guest/static/media/4.32f5a4527a6486954e71.jpg",
+    "static/media/pl3.jpg": "/vi-da-guest/static/media/pl3.3fe9477a1f13cb2b6965.jpg",
+    "static/media/2.jpg": "/vi-da-guest/static/media/2.819e6fb898e45c18185c.jpg",
+    "static/media/fa-solid-900.ttf": "/vi-da-guest/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/sp1.JPG": "/vi-da-guest/static/media/sp1.fbca82838934dc7910b0.JPG",
+    "static/media/rp1.JPG": "/vi-da-guest/static/media/rp1.db2f1f85ce504d2a399e.JPG",
+    "static/media/sp2.JPG": "/vi-da-guest/static/media/sp2.f083afcddd44ed5f2b40.JPG",
+    "static/media/fa-brands-400.ttf": "/vi-da-guest/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/vi-da-guest/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/pl2.jpg": "/vi-da-guest/static/media/pl2.36479fdff00f3227db45.jpg",
+    "static/media/rp2.JPG": "/vi-da-guest/static/media/rp2.7069f2c6236fb0b96924.JPG",
+    "static/media/pl1.JPG": "/vi-da-guest/static/media/pl1.8928bd2133ab3d4ca692.JPG",
+    "static/media/rm1.jpg": "/vi-da-guest/static/media/rm1.e6c35f671a6c64c1209f.jpg",
+    "static/media/fa-brands-400.woff2": "/vi-da-guest/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/rp3.jpg": "/vi-da-guest/static/media/rp3.be1fd5b4b702bc9bc1d1.jpg",
+    "static/media/sp3.jpg": "/vi-da-guest/static/media/sp3.a3d8845c2d55028315c4.jpg",
+    "static/media/fa-regular-400.ttf": "/vi-da-guest/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/vi-da-guest/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/vi-da-guest/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/vi-da-guest/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/vi-da-guest/index.html",
+    "main.6d343148.css.map": "/vi-da-guest/static/css/main.6d343148.css.map",
+    "main.3ee9ff43.js.map": "/vi-da-guest/static/js/main.3ee9ff43.js.map",
+    "787.1b0f9b41.chunk.js.map": "/vi-da-guest/static/js/787.1b0f9b41.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d343148.css",
+    "static/js/main.3ee9ff43.js"
+  ]
+}
