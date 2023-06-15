@@ -39,7 +39,6 @@ const Rooms = () => {
                         <AspectRatio minHeight="300px" maxHeight="400px">
                             <img
                                 src={RP1}
-                                srcSet="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=286&dpr=2 2x"
                                 loading="lazy"
                                 alt=""
                             />
@@ -87,7 +86,6 @@ const Rooms = () => {
                         <AspectRatio minHeight="300px" maxHeight="400px">
                             <img
                                 src={RP2}
-                                srcSet="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=286&dpr=2 2x"
                                 loading="lazy"
                                 alt=""
                             />
@@ -135,7 +133,6 @@ const Rooms = () => {
                         <AspectRatio minHeight="300px" maxHeight="400px">
                             <img
                                 src={RP3}
-                                srcSet="https://images.unsplash.com/photo-1527549993586-dff825b37782?auto=format&fit=crop&w=286&dpr=2 2x"
                                 loading="lazy"
                                 alt=""
                             />

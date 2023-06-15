@@ -23,7 +23,6 @@ const ServiceCards = () => {
               <AspectRatio ratio="2">
                 <img
                   src={SP1}
-                  srcSet="https://images.unsplash.com/photo-1532614338840-ab30cf10ed36?auto=format&fit=crop&w=318&dpr=2 2x"
                   loading="lazy"
                   alt=""
                 />
@@ -57,7 +56,6 @@ const ServiceCards = () => {
               <AspectRatio ratio="2">
                 <img
                   src={SP2}
-                  srcSet="https://images.unsplash.com/photo-1532614338840-ab30cf10ed36?auto=format&fit=crop&w=318&dpr=2 2x"
                   loading="lazy"
                   alt=""
                 />
@@ -91,7 +89,6 @@ const ServiceCards = () => {
               <AspectRatio ratio="2">
                 <img
                   src={SP3}
-                  srcSet="https://images.unsplash.com/photo-1532614338840-ab30cf10ed36?auto=format&fit=crop&w=318&dpr=2 2x"
                   loading="lazy"
                   alt=""
                 />
