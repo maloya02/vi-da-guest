@@ -16,7 +16,7 @@ const ServiceCards = () => {
         Services
       </Typography>
       <br />
-      <Grid container justifyContent="center" spacing={2}>
+      <Grid container justifyContent="center" spacing={2} sx={{ padding: '0 16px' }}>
         <Grid item xs={12} sm={6} md={4}>
           <Card variant="outlined" sx={{ width: '100%' }}>
             <CardOverflow>

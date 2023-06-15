@@ -16,9 +16,9 @@ const Pools = () => {
       </Typography>
       <Box
         component="ul"
-        sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0 }}
+        sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', p: 0, m: 0, justifyContent: 'center' }}
       >
-        <Card component="li" sx={{ minWidth: 300, flexGrow: 1, height: 400 }}>
+        <Card component="li" sx={{ minWidth: 300, flexGrow: 1, height: 400, margin: '16px' }}>
           <CardCover>
             <img
               src={PL1}
@@ -52,7 +52,7 @@ const Pools = () => {
             </Box>
           </CardContent>
         </Card>
-        <Card component="li" sx={{ minWidth: 300, flexGrow: 1, height: 400 }}>
+        <Card component="li" sx={{ minWidth: 300, flexGrow: 1, height: 400, margin: '16px' }}>
           <CardCover>
             <img
               src={PL2}
@@ -86,7 +86,7 @@ const Pools = () => {
             </Box>
           </CardContent>
         </Card>
-        <Card component="li" sx={{ minWidth: 300, flexGrow: 1, height: 400 }}>
+        <Card component="li" sx={{ minWidth: 300, flexGrow: 1, height: 400, margin: '16px' }}>
           <CardCover>
             <img
               src={PL3}
