@@ -11,7 +11,7 @@ const Home = () => {
     <motion.div className='home'
       initial={{ width: 0 }}
       animate={{ width: "100%" }}
-      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.7 } }}
 
     >
       <HCarousel />
