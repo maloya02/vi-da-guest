@@ -3,21 +3,26 @@ import HCarousel from "../components/hcomponent/Carousel";
 import StaticDatePickerLandscape from '../components/hcomponent/StaticDatePickerLandscape';
 import ServiceCards from '../components/hcomponent/ServiceCards';
 import Pools from '../components/hcomponent/Pools';
-
+import { motion } from "framer-motion"
 
 
 const Home = () => {
   return (
-    <div className='home'>
+    <motion.div className='home'
+      initial={{ width: 0 }}
+      animate={{ width: "100%" }}
+      exit={{ x: window.innerWidth, transition: { duration: 0.3 } }}
+
+    >
       <HCarousel />
       <br />
-      <StaticDatePickerLandscape/>
+      <StaticDatePickerLandscape />
       <br />
       <ServiceCards />
       <br />
       < Pools />
       <br />
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MDBInput, MDBCheckbox, MDBBtn, MDBValidation, MDBValidationItem } from 'mdb-react-ui-kit';
+import { motion } from "framer-motion"
 
 const Contact = () => {
   const [name, setName] = useState('');
@@ -44,7 +45,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+    <motion.div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <MDBValidation method='POST' action="https://api.slapform.com/H6naVJ70u" noValidate id='form' className='text-center' style={{ width: '100%', maxWidth: '500px' }}>
         <h2>Book Now</h2>
 
@@ -76,7 +81,7 @@ const Contact = () => {
           Send
         </MDBBtn>
       </MDBValidation>
-    </div>
+    </motion.div>
   );
 };
 

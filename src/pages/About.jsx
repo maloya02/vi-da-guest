@@ -1,10 +1,15 @@
 import * as React from 'react';
 import Card from '@mui/joy/Card';
 import Typography from '@mui/joy/Typography';
+import { motion } from "framer-motion"
 
 const About = () => {
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+    <motion.div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <Card variant="outlined" sx={{ maxWidth: 400 }}>
         <Typography textAlign="center" level="h1">Vi-Da Guest Resort</Typography>
         <Typography textAlign="center" level="h2" fontSize="xl" sx={{ mb: 0.5 }} >
@@ -53,7 +58,7 @@ const About = () => {
           Baka ka mahulog
         </Typography>
       </Card>
-    </div>
+    </motion.div>
   );
 };
 
