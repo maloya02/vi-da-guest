@@ -1,10 +1,6 @@
-/* .carousel-container {
-    height: 400px; 
-  }
-  
- 
-  .h-carousel {
-    height: 100%;
-  }
-
-  */
+.carousel-container .caption-content {
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.351);
+  padding: 10px;
+  border-radius: 10px;
+}
